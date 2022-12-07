@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    background-color: #26547b;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.calculator {
+    width: 420px;
+    height: 397px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    background-color: #191b28;
+    box-shadow: 0px 4px 6px #939397;
+    border-radius: 10px;
+}
+
+p {
+    width: 80px;
+    height: 50px;
+    font-size: 15px;
+    color: rgb(120, 102, 2);
+    text-align: center;
+    padding-top: 14px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.secondRow {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 12px;
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    padding: 19px 10px 0px 16px;
+}
+
+.yellowButton {
+    background-color: #fa0069;
+    width: 40px;
+    height: 50px;
+    color: white;
+}
+
+.blueButton-01 {
+    background-color: #65268f;
+    width: 40px;
+    height: 50px;
+    color: white;
+    margin: 11px 0px;
+}
+
+.longP {
+    width: 348px;
+    background-color: #dcdbe3;
+    color: white;
+    text-align: end;
+    padding-right: 12px;
+    font-size: 30px;
+    padding-top: 5px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 3px;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 3px;
+}
+
+.four {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 3px;
+}
+
+.blueButton {
+    background-color: #65268f;
+    color: white;
+    width: 110px;
+    margin: 11px 0px;
+}
+
+.skyButton {
+    background-color: #fc0067;
+    color: white;
+    font-weight: 600;
+    width: 110px;
+    margin: 11px 0px;
+}
+
+.five {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 3px;
+    font-size: 31px;
+}
